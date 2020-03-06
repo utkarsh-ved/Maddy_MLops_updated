@@ -8,7 +8,7 @@ RUN pip install -r ./requirements.txt
 COPY main.py __init__.py /app/
 
 # ENTRYPOINT /bin/bash
-EXPOSE 5000
+EXPOSE 7000
 
 ENV ENVIRONMENT local
 
